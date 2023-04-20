@@ -1,0 +1,51 @@
+package com.springcore1.collections;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+
+public class Emp {
+
+	private String name;
+	private List<String> phones;
+	private Set<String> adress;
+	private Map<String,String> courses;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public List<String> getPhones() {
+		return phones;
+	}
+	public void setPhones(List<String> phones) {
+		this.phones = phones;
+	}
+	public Set<String> getAdress() {
+		return adress;
+	}
+	public void setAdress(Set<String> adress) {
+		this.adress = adress;
+	}
+	public Map<String, String> getCourses() {
+		return courses;
+	}
+	public void setCourses(Map<String, String> courses) {
+		this.courses = courses;
+	}
+	public Emp(String name, List<String> phones, Set<String> adress, Map<String, String> courses) {
+		super();
+		this.name = name;
+		this.phones = phones;
+		this.adress = adress;
+		this.courses = courses;
+	}
+	public Emp() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}
